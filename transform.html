@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transform</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .translate{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            color: white;text-align: center;
+            margin-bottom: 200px;
+            transition: 2s;
+            margin: 20px;
+            transition-timing-function: ease;
+            box-shadow: -10px -15px 5px black;
+/*            box-shadow: 10px 15px 5px black;*/
+/*            transform: translatey(300px);*/
+/*            transform: translate(300px);*/
+        }
+        .translate:hover{
+            transform: translate(400px);
+        }
+        .skew{height: 400px;
+            width: 400px;
+            background-color: green;
+            color: white;text-align: center;margin-bottom: 200px;transition: 2s;}
+        .skew:hover{
+/*            transform: skewX(45deg);*/
+            transform: skewy(-45deg);
+/*            transform: skewy(45deg);*/
+        }
+        .rotate{height: 400px;
+            width: 400px;
+            background-color: blue;
+            color: white;text-align: center;margin-bottom: 200px;transition: 2s;}
+        .rotate:hover{
+            transform: rotate(180deg);
+        }
+        .scale{height: 400px;
+            width: 400px;
+            background-color: yellow;
+            color: white;text-align: center;margin-bottom: 200px;transition: 2s;}
+        .scale:hover{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="translate">
+        <h1>Transate</h1>
+    </div>
+    <div class="skew">
+        <h1>Skew</h1>
+    </div>
+    <div class="rotate">
+        <h1>Rotate</h1>
+    </div>
+    <div class="scale">
+        <h1>Scale</h1>
+    </div>
+</body>
+</html>

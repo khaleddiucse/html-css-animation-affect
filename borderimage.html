@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>border image</title>
+    <style>
+        .border{
+            border: 10px solid transparent;
+            border-image: url(images/a.jpg)30 round;
+            -webkit-border-image: url(images/a.jpg)30 round;
+            -o-border-image: url(images/a.jpg)30 round;
+            -moz-border-image: url(images/a.jpg)30 round;
+        }
+    </style>
+</head>
+<body>
+    <p class="border">This is content of this block.</p>
+</body>
+</html>
